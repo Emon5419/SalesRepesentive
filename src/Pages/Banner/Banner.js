@@ -1,6 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import jackMa from '../../images/jackMa.jpg';
+import Button from 'react-bootstrap/Button';
 
 const Banner = () => {
    return (
@@ -13,7 +14,9 @@ const Banner = () => {
                <h1>Jack <span>Ma</span></h1>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, fugit! Cum quos beatae quasi est nobis <br />
                   voluptatibus voluptatum eos esse! Exercitationem perferendis dignissimos possimus veniam recusandae. <br /> Veritatis aut vero accusantium fugit quaerat dolore corrupti aliquid nisi, provident autem nostrum <br /> officia minus natus laudantium laborum repellat maxime culpa maiores doloremque adipisci?</p>
-               <button type="submit">Create New Vendor</button>
+
+               <Button href="/CreateVendor" variant="outline-primary">Create New Vendor</Button>
+
             </div>
          </div>
       </div>
