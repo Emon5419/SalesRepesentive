@@ -38,7 +38,7 @@ const Login = () => {
    return (
       <>
          <div className="p-4 box tagName">
-            <h2 className="text-center">Yaqeen</h2>
+            <h2 className="text-center text-light">Yaqeen</h2>
             {error && <Alert variant="danger">{error}</Alert>}
             <Form onSubmit={handleSubmit}>
                <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -79,8 +79,8 @@ const Login = () => {
                </div>
             </Link>
          </div>
-         <div className="p-4 box mt-3 text-center">
-            Don't have an account? <Link to="/signup">Sign up</Link>
+         <div className="p-4 box mt-3 text-center text-white">
+            Don't have an account? <Link to="/signup" className="text-white">Sign up</Link>
          </div>
       </>
    );
